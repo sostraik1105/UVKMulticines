@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff0ff2d814.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>UVK | Cartelera</title>
 </head>
@@ -34,14 +35,22 @@
         </section>
 
 
-        <template>
-            <article id="cardPelis">   
-                <div id="img">
+        <template id="cardPelis">
+            <article class="cardPelis">
+                <div class="imgPeli">
                     <img>
+                    <div class="btns"> 
+                        <a href="#">
+                            <i class="fa-solid fa-ticket"></i>
+                            Comprar</a>
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                            Detalles</a>
+                    </div>
                 </div>
-                <div>
-                    <h3 id="titulo"></h3>
-                    <p id="caracteristicas"></p>
+                <div class="leyenda">  
+                    <h3></h3>
+                    <p></p>
                 </div>
             </article>
         </template>
@@ -49,5 +58,7 @@
 
 
     <script defer src="https://kit.fontawesome.com/ff0ff2d814.js" crossorigin="anonymous"></script>
+
+    <script type="module" src="/assets/js/mains.js"></script>
 </body>
 </html>
