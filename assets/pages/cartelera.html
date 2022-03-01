@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <title>UVK | Login</title>
+    <title>UVK | Cartelera</title>
 </head>
 <body>
     <nav class="nav">
@@ -28,18 +28,26 @@
         </div>
     </nav>
 
-
     <main>
-        <form id="login">
-            <input type="text" class="input" id="user" placeholder="Usuario" required>
-            <input type="password" class="input" id="pass" placeholder="Contraseña" required>
-            <input type="submit" value="Ingresar">
-        </form>
-        <a href="#">Registrar</a>
+        <section id="pelis">
+
+        </section>
+
+
+        <template>
+            <article id="cardPelis">   
+                <div id="img">
+                    <img>
+                </div>
+                <div>
+                    <h3 id="titulo"></h3>
+                    <p id="caracteristicas"></p>
+                </div>
+            </article>
+        </template>
     </main>
 
 
-    <script src="https://kit.fontawesome.com/ff0ff2d814.js" crossorigin="anonymous"></script>
-    <script defer type="module" src="/assets/js/mains.js" ></script> 
+    <script defer src="https://kit.fontawesome.com/ff0ff2d814.js" crossorigin="anonymous"></script>
 </body>
 </html>
