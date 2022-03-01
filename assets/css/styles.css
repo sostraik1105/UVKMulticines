@@ -63,7 +63,8 @@ main{
     padding-top: 100px;
 }
 
-#login{
+#login,
+#registrar{
     background-color: rgb(190, 190, 190);
     width: 400px;
     padding: 90px 30px 120px 30px;
@@ -76,7 +77,14 @@ main{
     top: calc(50% - 180px);
 }
 
-#login>input{
+#registrar>h2{
+    position: absolute;
+    top: 30px;
+    left: 125px
+}
+
+#login>input,
+#registrar>input{
     width: 80%;
     padding: 0 20px;
     font-size: 1rem;
@@ -86,7 +94,8 @@ main{
     left: 10%;
 }
 
-#login>input[type="submit"]{
+#login>input[type="submit"],
+#registrar>input[type="submit"]{
     top: 2rem;
     background-color: blueviolet;
 }
@@ -96,7 +105,6 @@ main{
     left: calc(50% - 30px);
     top: calc(50% + 135px);
 }
-
 #pelis{
     max-width: 1200px;
     display: flex;
